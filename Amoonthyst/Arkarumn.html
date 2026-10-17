@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arkarumn</title>
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="cardsArka.css">
+    <link rel="stylesheet" href="ArkaStyle.css">
+    <link rel="icon" href="Picsart_25-04-02_16-32-45-747.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">      
+</head>
+<body>
+    <header>
+        <div><a href="Arkarumn.html"><img src="Picsart_25-04-02_16-32-45-747.png" alt="Logo" class="logo"></a></div>
+        <nav class="navbar bg-body-tertiary"> 
+            <div class="search-container">
+           <input type="text" id="search" placeholder="Pesquisar...">
+           <button onclick="pesquisar()">🔍</button>
+            </div>
+            <p id="resultado"></p>
+         <a href="ArkaCarrinho.html" class="botao-carrinho"><i class="fas fa-shopping-cart"></i> <span>Carrinho</span></a> 
+      <a href="loginArka.html" target="_blank" class="botao-perfil"><i class="fas fa-user-circle"></i><span>Login</span></a>
+    </nav>
+    </header>
+        
+    <section class="p-slider">
+    <h3 id="product-slider-heading" class="product-slider-heading">🔥 Novidades e Destaques Geek</h3> 	 	
+    <div class="products-wrapper"> 
+        
+        <div class="product-box">
+            <div class="p-img-container">
+                <a href="ArkarumnProduto.html">
+                    <div class="p-img">
+                        <img src="estatua-batman-premium.jpg" alt="Estátua Batman Iron Studios">
+                    </div>
+                </a> 
+            </div> 
+            <div class="p-box-text">
+                <div class="product-category">
+                    <span>Colecionáveis Premium | DC Comics</span>
+                </div>
+                <a href="ArkarumnProduto.html"  class="product-title">Estátua Batman Art Scale 1/10 - Iron Studios</a>
+                <div class="price-buy">
+                    <span class="p-price">R$ 999,00</span>
+                    <a href="ArkarumnProduto.html"  class="p-buy-btn">Veja mais</a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="product-box">
+            <div class="p-img-container">
+                <a href="#" target="_blank">
+                    <div class="p-img">
+                        <img src="figure-luffy-gear5_.jpg" alt="Figure Action Luffy Gear 5">
+                    </div>
+                </a> 
+            </div> 
+            <div class="p-box-text">
+                <div class="product-category">
+                    <span>Anime e Mangá | One Piece</span>
+                </div>
+                <a href="#" target="_blank" class="product-title">Figure Action Monkey D. Luffy Gear 5 (DXF)</a>
+                <div class="price-buy">
+                    <span class="p-price">R$ 349,90</span>
+                    <a href="#" target="_blank" class="p-buy-btn">Veja mais</a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="product-box">
+            <div class="p-img-container">
+                <a href="#" target="_blank">
+                    <div class="p-img">
+                        <img src="mousepad-gamer-estendido.jpg" alt="Mousepad Gamer Estendido XL">
+                    </div>
+                </a> 
+            </div> 
+            <div class="p-box-text">
+                <div class="product-category">
+                    <span>Acessórios Gamer | PC</span>
+                </div>
+                <a href="#" target="_blank" class="product-title">Mousepad Gamer Estendido XL - Tema Mapa do Continente</a>
+                <div class="price-buy">
+                    <span class="p-price">R$ 99,90</span>
+                    <a href="#" target="_blank" class="p-buy-btn">Veja mais</a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="product-box">
+            <div class="p-img-container">
+                <a href="#" target="_blank">
+                    <div class="p-img">
+                        <img src="camiseta-referencia-cult.webp" alt="Camiseta Minimalista The Office">
+                    </div>
+                </a> 
+            </div> 
+            <div class="p-box-text">
+                <div class="product-category">
+                    <span>Vestuário | Séries de TV</span>
+                </div>
+                <a href="#" target="_blank" class="product-title">Camiseta "That's What She Said" - The Office</a>
+                <div class="price-buy">
+                    <span class="p-price">R$ 79,90</span>
+                    <a href="#" target="_blank" class="p-buy-btn">Veja mais</a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="product-box">
+            <div class="p-img-container">
+                <a href="#" target="_blank">
+                    <div class="p-img">
+                        <img src="funko-pop-exclusivo-marvel.webp" alt="Funko Pop! Exclusivo Marvel">
+                    </div>
+                </a> 
+            </div> 
+            <div class="p-box-text">
+                <div class="product-category">
+                    <span>Funko Pop! | Marvel</span>
+                </div>
+                <a href="#" target="_blank" class="product-title">Funko Pop! Edição Especial - Loki c/ Chifres Dourados</a>
+                <div class="price-buy">
+                    <span class="p-price">R$ 179,90</span>
+                    <a href="#" target="_blank" class="p-buy-btn">Veja mais</a>
+                </div>
+            </div> 
+        </div>
+        
+    </div> 
+</section>
+
+<section class="main-categories-section">
+    <h2 class="category-heading">Explore Nossas Categorias Geek</h2>
+    
+    <div class="category-list">
+        
+        <a href="categorias/filmes-series.html" class="category-item">
+            <div class="category-icon-wrapper">
+                <img src="icon-filmes-serie.jpg" alt="Ícone Filmes e Séries">
+            </div>
+            <span class="category-name">Filmes e Séries</span>
+        </a>
+
+        <a href="categorias/gaming-consoles.html" class="category-item">
+            <div class="category-icon-wrapper">
+                <img src="icon-gaming-consoles.jpeg" alt="Ícone Gaming e Consoles">
+            </div>
+            <span class="category-name">Gaming e Consoles</span>
+        </a>
+
+        <a href="categorias/animes-mangas.html" class="category-item">
+            <div class="category-icon-wrapper">
+                <img src="icon-animes-mangas.jpg" alt="Ícone Animes e Mangás">
+            </div>
+            <span class="category-name">Animes e Mangás</span>
+        </a>
+
+        <a href="categorias/decoracao-casa.html" class="category-item">
+            <div class="category-icon-wrapper">
+                <img src="icon-decoracao-casa.webp" alt="Ícone Decoração e Casa Geek">
+            </div>
+            <span class="category-name">Decoração e Casa Geek</span>
+        </a>
+
+        <a href="categorias/tcg-jogos.html" class="category-item">
+            <div class="category-icon-wrapper">
+                <img src="icon-tcg-jogos.png" alt="Ícone TCGs e Jogos">
+            </div>
+            <span class="category-name">TCGs e Jogos</span>
+        </a>
+
+        </div>
+</section>
+    
+                
+    <footer>
+         <p>© 2025 Arkarumn — Todos os direitos reservados</p>
+    </footer>
+    <script src="slide.js"></script>
+</body>
+</html>

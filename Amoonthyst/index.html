@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amoonthyst</title>
+    <link rel="stylesheet" href="slide.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+    <link rel="icon" href="272 Sem Título_20251203225143.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">      
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img src="Amoonthyst.jpg" alt="Logo" class="logo"></a></div>
+
+        <nav class="navbar bg-body-tertiary"> 
+            <div class="search-container">
+           <input type="text" id="search" placeholder="Pesquisar...">
+           <button onclick="pesquisar()">🔍</button>
+            </div>
+            <p id="resultado"></p>
+      <a href="sobreNos.html" class="botao-sobre-nos"><i class="fas fa-info-circle"></i> <span>Sobre nós</span></a>      
+      <a href="carrinho.html" class="botao-carrinho"><i class="fas fa-shopping-cart"></i> <span>Carrinho</span></a> 
+      <a href="login.html" target="_blank"  class="botao-perfil"><i class="fas fa-user-circle"></i><span>Login</span></a>
+    </nav>
+    </header>
+    <br>
+    <br>
+    <br>
+   <section class="slider">
+    <div class="slider-content">
+        <input type="radio" name="btn-radio" id="radio1">
+        <input type="radio" name="btn-radio" id="radio2">
+        <input type="radio" name="btn-radio" id="radio3">
+
+        <div class="slide-box primeiro">
+            <a href="sobreNos.html"><img src="img carrossel 1.png" alt="Slide 1"></a>
+            </div>
+
+        <div class="slide-box">
+            <a href="#product-slider-heading"><img src="img carrossel 2.png" alt="Slide 2"></a>
+        </div>
+
+        <div class="slide-box">
+            <a href="#lojas"><img src="img carrossel 3.png" alt="Slide 3"></a>
+        </div>
+        
+        <div class="nav-auto">
+            <div class="auto-btn-1"></div>
+            <div class="auto-btn-2"></div>
+            <div class="auto-btn-3"></div>
+        </div>
+        
+        <div class="nav-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+        
+        <button class="prev-slide">❮</button>
+        <button class="next-slide">❯</button>
+    </div>
+</section>
+<br>
+
+<section class="p-slider">
+        <h3 id="lojas" class="product-slider-heading">Top 3 Lojas</h3>
+        <div class="products-wrapper"> 
+            <div class="product-box">
+                <div class="p-img-container">
+                    <a href="Arkarumn.html" target="_blank">
+                        <div class="p-img">
+                            <img src="Picsart_25-04-02_16-32-45-747.png" alt="Arkarumn">
+                        </div>
+                    </a> 
+                </div> <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Geek</span>
+                    </div>
+                    <a href="Arkarumn.html" target="_blank" class="product-title">Arkarumn</a>
+                    <div class="price-buy">
+                        <a href="Arkarumn.html" target="_blank"  class="p-buy-btn">Veja mais</a>
+                    </div>
+                </div> </div> 
+                
+
+                <div class="product-box">
+                <div class="p-img-container">
+                    <a href="#">
+                        <div class="p-img">
+                       <img src="248 Sem Título_20251013201859.png" alt="Arken">
+                    </div>
+                    </a>
+                </div> <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Esportes</span>
+                    </div>
+                    <a href="#" class="product-title">Arken</a>
+                    <div class="price-buy">
+                        <a href="#" class="p-buy-btn">Veja mais</a>
+                    </div>
+                </div> </div> 
+            
+
+            <div class="product-box">
+                <div class="p-img-container">
+                    <a href="#">
+                        <div class="p-img">
+                          <img src="204 Sem Título_20250720205139.png" alt="FIA">
+                        </div>
+                    </a> 
+                </div> <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Variados</span>
+                    </div>
+                    <a href="#" class="product-title">F.I.A.</a>
+                    <div class="price-buy">
+                        <a href="#" class="p-buy-btn">Veja mais</a>
+                    </div>
+                </div> </div> 
+            </div> 
+        </section>
+
+
+        <section class="p-slider">
+        <h3 id="product-slider-heading" class="product-slider-heading">Top 5 Produtos</h3>        
+        <div class="products-wrapper"> 
+            <div class="product-box">
+                <div class="p-img-container">
+                    <a href="produto.html">
+                        <div class="p-img">
+                            <img src="PS5.jpg" alt="PS5">
+                        </div>
+                    </a> 
+                </div> 
+                <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Games e Consoles</span>
+                    </div>
+                    <a href="produto.html"  class="product-title">PlayStation 5 Slim Digital - Pacote ASTRO BOT e Gran Turismo 7 - PS5</a>
+                    <div class="price-buy">
+                        <span class="p-price">R$ 4999,99</span>
+                        <a href="produto.html" class="p-buy-btn">Veja mais</a>
+                    </div>
+                </div> </div> 
+                
+                <div class="product-box">
+                <div class="p-img-container">
+                    <a href="#">
+                        <div class="p-img">
+                            <img src="celular.jpg" alt="celular">
+                        </div>
+                    </a>
+                </div> <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Eletrônicos e Tecnologia</span>
+                    </div>
+                    <a href="#" class="product-title">Samsung Galaxy A55 5G, Azul Escuro</a>
+                    <div class="price-buy">
+                        <span class="p-price">R$ 1.899,00</span> <br>
+                        <a href="#" class="p-buy-btn">Veja mais</a>
+                    </div>
+                </div>
+             </div> 
+            
+            <div class="product-box">
+                <div class="p-img-container">
+                    <a href="#">
+                        <div class="p-img">
+                            <img src="orgulho_.jpg" alt="livroOrgulho">
+                        </div>
+                    </a> 
+                </div> <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Livros</span>
+                    </div>
+                    <a href="#" class="product-title">Orgulho e Preconceito</a>
+                    <div class="price-buy">
+                        <span class="p-price">R$ 15,00</span>
+                        <a href="#" class="p-buy-btn">Veja mais</a>
+                    </div>
+                </div> </div> 
+
+                <div class="product-box">
+                <div class="p-img-container">
+                    <a href="#">
+                        <div class="p-img">
+                            <img src="Hidratante-Lavanda.webp" alt="Hidratante">
+                        </div>
+                    </a> 
+                </div> <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Cosméticos</span>
+                    </div>
+                    <a href="#" class="product-title">Hidratante Corporal Lavanda e Coco 200g</a>
+                    <div class="price-buy">
+                        <span class="p-price">R$ 32,90</span>
+                        <a href="#" class="p-buy-btn">Veja mais</a>
+                    </div>
+                </div> </div> 
+
+                <div class="product-box">
+                <div class="p-img-container">
+                    <a href="#">
+                        <div class="p-img">
+                            <img src="moletom.webp" alt="moletom">
+                        </div>
+                    </a> 
+                </div> <div class="p-box-text">
+                    <div class="product-category">
+                        <span>Moda</span>
+                    </div>
+                    <a href="#" class="product-title">Moletom Feminino Lavanda</a>
+                    <div class="price-buy">
+                        <span class="p-price">R$ 109,90</span>
+                        <a href="#" class="p-buy-btn">Veja mais</a>
+                    </div>
+                </div> </div> 
+            </div> 
+        </section>
+    <footer>
+         <p>© 2025 Amoonthyst — Todos os direitos reservados</p>
+    </footer>
+    <script src="slide.js"></script>
+</body>
+</html>

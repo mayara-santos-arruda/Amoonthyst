@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="ArkaCarrinho.css">
+    <link rel="icon" href="Picsart_25-04-02_16-32-45-747.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">      
+</head>
+<body>
+    <header>
+        <div><a href="Arkarumn.html"><img src="Picsart_25-04-02_16-32-45-747.png" alt="Logo" class="logo"></a></div>
+        <nav class="navbar bg-body-tertiary"> 
+            <div class="search-container">
+           <input type="text" id="search" placeholder="Pesquisar...">
+           <button onclick="pesquisar()">🔍</button>
+            </div>
+            <p id="resultado"></p>
+         <a href="ArkaCarrinho.html" class="botao-carrinho"><i class="fas fa-shopping-cart"></i> <span>Carrinho</span></a> 
+      <a href="loginArka.html" target="_blank" class="botao-perfil"><i class="fas fa-user-circle"></i><span>Login</span></a>
+    </nav>
+    </header>
+    
+    <section class="lista-de-produtos">
+        <div class="produto-item">
+            <div class="produto-imagem">
+                <img src="PS5.jpg" alt="PlayStation 5 Slim com jogos ASTRO BOT e Gran Turismo 7">
+            </div>
+            <div class="produto-detalhes">
+                <h2 class="produto-titulo">PlayStation 5 Slim Digital - Pacote ASTRO BOT e Gran Turismo 7 - PS5</h2>
+                <p class="produto-preco">R$ 4999,99</p>
+                <button class="botao-comprar-agora">
+                    <i class="fas fa-shopping-bag"></i> COMPRAR AGORA
+                </button>
+                <div class="controle-quantidade">
+                    <button class="btn-quantidade">-</button>
+                    <span class="quantidade-valor">1</span>
+                    <button class="btn-quantidade">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="produto-item">
+            <div class="produto-imagem">
+                <img src="headset.jpg" alt="Headset Gamer Redragon Zeus Pro">
+            </div>
+            <div class="produto-detalhes">
+                <h2 class="produto-titulo">Headset Gamer Redragon Zeus Pro, Sem Fio, Bluetooth, Microfone Destacável, Surround 7.1, Black, H510-PRO</h2>
+                <p class="produto-preco">R$ 499,99</p>
+                <button class="botao-comprar-agora">
+                    <i class="fas fa-shopping-bag"></i> COMPRAR AGORA
+                </button>
+                <div class="controle-quantidade">
+                    <button class="btn-quantidade">-</button>
+                    <span class="quantidade-valor">1</span>
+                    <button class="btn-quantidade">+</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="produto-item">
+            <div class="produto-imagem">
+                <img src="piccolo.jpg" alt="Boneco Colecionável Piccolo Ref. 32971/32972">
+            </div>
+            <div class="produto-detalhes">
+                <h2 class="produto-titulo">Boneco Colecionável Piccolo Ref. 32971/32972</h2>
+                <p class="produto-preco">R$ 399,90</p>
+                <button class="botao-comprar-agora">
+                    <i class="fas fa-shopping-bag"></i> COMPRAR AGORA
+                </button>
+                <div class="controle-quantidade">
+                    <button class="btn-quantidade">-</button>
+                    <span class="quantidade-valor">1</span>
+                    <button class="btn-quantidade">+</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+         <p>© 2025 Arkarumn — Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>

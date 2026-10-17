@@ -1,0 +1,221 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;  
+    background-color: #a8a58b;    
+  }
+  .logo{
+    width: 200px;
+    height: auto;
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+header {
+    background-color: #626b5c;
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+header nav a {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+  }
+header nav a:hover {
+    color: #8ea88b;
+  }
+header nav a:hover .fas.fa-user-circle {
+    color: #8ea88b;  
+}
+.botao-carrinho {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    gap: 2px; 
+}
+.botao-carrinho .fas {
+    font-size: 25px; 
+}
+.botao-carrinho span {
+    font-size: 12px; 
+    font-weight: normal; 
+}
+.botao-perfil {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 2px; 
+}
+.fas.fa-user-circle {
+    font-size: 25px;
+}
+.botao-perfil span {
+    font-size: 12px; 
+    font-weight: normal; 
+}
+.search-container {
+    display: flex;
+    align-items: center;  
+    flex-grow: 1; 
+    text-align: center; 
+    justify-content: center; 
+  }
+input[type="text"] {
+    flex: 1;
+    max-width: 700px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+button {
+    padding: 10px 14px;
+    border: none;
+    background: #96a88b;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+button:hover {
+    background:#90a871;
+  }
+footer {
+    background-color: #626b5c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+.banner-oferta {
+    background-color: #a8a58b; 
+    padding: 60px 0; 
+    display: flex;
+    justify-content: center; 
+    color: #e2e7e2; /
+}
+.conteudo-principal {
+    width: 80%; 
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bloco-produto {
+    display: flex; 
+    align-items: flex-start; 
+    margin-bottom: 30px;
+}
+.imagem-produto {
+    width: 350px; 
+    height: auto;
+    margin-right: 40px; 
+    box-shadow: 0 4px 8px  rgba(124, 255, 9, 0.5); 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out; 
+  }
+.imagem-produto:hover{
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px 10px  rgba(91, 133, 55, 0.5);  
+}
+.info-e-botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 10px; 
+}
+.titulo-oferta {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:  rgba(33, 65, 5, 0.5); 
+}
+.preco {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:  rgba(49, 105, 0, 0.5); 
+}
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px; 
+    padding: 15px 25px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.botao i {
+    margin-right: 10px; 
+    font-size: 18px;
+}
+.comprar {
+    background-color:  rgba(78, 85, 7, 0.5); 
+    color: rgb(221, 236, 215);
+    border-radius: 20px;  
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;  
+}
+.comprar:hover {
+    background-color: rgba(94, 156, 43, 0.5);
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px 10px rgba(179, 194, 92, 0.5);  
+}
+.carrinho {
+    background-color: rgba(78, 85, 7, 0.5); 
+    color: white;
+    border-radius: 20px;
+}
+.carrinho:hover {
+    background-color: rgba(94, 156, 43, 0.5);
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px 10px rgba(179, 194, 92, 0.5); 
+ }
+.descricao-principal {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #4d664f; 
+}
+.descricao-principal {
+    margin-bottom: 40px; 
+}
+.lista-recursos-seta {
+    list-style: none; 
+    padding-left: 0; 
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #2d3b2d; 
+}
+.lista-recursos-seta li {
+    position: relative; 
+    padding-left: 20px; 
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+.lista-recursos-seta li::before {
+    content: "▶"; 
+    color: #3c5a36; 
+    font-size: 10px; 
+    position: absolute;
+    left: 0; 
+    top: 5px; 
+}

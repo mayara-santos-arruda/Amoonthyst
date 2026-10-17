@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós</title>
+    <link rel="icon" href="272 Sem Título_20251203225143.png">
+<style>
+ body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+    background-color: #191919;    
+  }
+  .logo{
+    width: 200px;
+    height: auto;
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+header {
+    background-color: #4d3779;
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+header nav a {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+  }
+header nav a:hover {
+    color: #b28ae6;
+  }
+header nav a:hover .fas.fa-user-circle {
+    color: #b28ae6;
+}
+.botao-sobre-nos {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    gap: 2px;
+}
+.botao-sobre-nos .fas {
+    font-size: 25px; 
+}
+.botao-sobre-nos span {
+    font-size: 12px;
+    font-weight: normal; 
+}
+.botao-carrinho {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    gap: 2px; 
+}
+.botao-carrinho .fas {
+    font-size: 25px; 
+}
+
+.botao-carrinho span {
+    font-size: 12px; 
+    font-weight: normal; 
+}
+.botao-perfil {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 2px; 
+}
+.fas.fa-user-circle {
+    font-size: 25px;
+}
+.botao-perfil span {
+    font-size: 12px; 
+    font-weight: normal; 
+}
+.search-container {
+    display: flex;
+    align-items: center;  
+    flex-grow: 1; 
+    text-align: center; 
+    justify-content: center; 
+  }
+input[type="text"] {
+    flex: 1;
+    max-width: 700px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+button {
+    padding: 10px 14px;
+    border: none;
+    background: #4b187b;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+button:hover {
+    background: #6500b3;
+  }
+  .conteudo-sobre-nos {
+    text-align: center;
+  }
+.sobreNos{
+    font-size: 28px;
+    text-transform: uppercase;
+    color: rgb(165, 55, 238); 
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.texto{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    color: #897996; 
+    text-align: justify;
+    margin-bottom: 30px; 
+    padding: 0 20px;
+}
+.topicos{
+    list-style: none; 
+    padding-left: 0; 
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    color: #afaeaf;
+    text-align: justify;
+}
+.topicos li{
+    position: relative; 
+    padding-left: 20px; 
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+.topicos li::before {
+    content: "▶"; 
+    color: #9c00bb; 
+    font-size: 10px; 
+    position: absolute;
+    left: 0; 
+    top: 5px; 
+}
+.logo-centralizada {
+    margin-top: 30px; 
+}
+.logo-img-central {
+    width: 800px; 
+    height: auto;
+    display: inline-block; 
+}
+footer {
+    background-color: #8e13ad;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">      
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="index.html"><img src="Amoonthyst.jpg" alt="Logo" class="logo"></a></div>
+
+        <nav class="navbar bg-body-tertiary"> 
+            <div class="search-container">
+           <input type="text" id="search" placeholder="Pesquisar...">
+           <button onclick="pesquisar()">🔍</button>
+            </div>
+            <p id="resultado"></p>
+      <a href="sobreNos.html" class="botao-sobre-nos"><i class="fas fa-info-circle"></i> <span>Sobre nós</span></a>      
+      <a href="carrinho.html" class="botao-carrinho"><i class="fas fa-shopping-cart"></i> <span>Carrinho</span></a> 
+      <a href="login.html" target="_blank" class="botao-perfil"><i class="fas fa-user-circle"></i><span>Login</span></a>
+    </nav>
+    </header>
+   <br>
+   <br>
+    <section class="conteudo-sobre-nos">
+
+      <h1 class="sobreNos">Nossa empresa</h1> 
+    <p class="texto">A Amoonthyst é uma plataforma de e-commerce com foco em ajudar os pequenos vendedores que estão começando agora ou que não tem muito espaço no mercado.</p>
+
+       <ul class="topicos">
+    <li>
+      Aqui não é necessário um espaço de venda físico e oferecemos a conveniência de compras a qualquer hora e em qualquer lugar.
+    </li>
+    <li>
+      Você pode hospedar sua loja em nosso site, dando um espaço único para ela, além de seus produtos também poderem aparecer na tela inicial do site junto das outras lojas.
+    </li>
+  <br>
+  <h2 class="sobreNos"> Nossa logomarca</h2>
+  <li> Nossa logo foi criada com inspiração em um geodo de ametista em formato de lua.</li> 
+  <li> Assim também, foi definido o nome, sendo a junção de ‘Moon’ (Lua em inglês) + ‘Amethyst’ (Ametista em inglês).</li>
+  </ul>
+
+  <div class="logo-centralizada"><img src="Cópia de Amoonthyst.png" alt="Logo" class="logo-img-central">
+
+  </section>
+    <footer>
+        <p>© 2025 Amoonthyst — Todos os direitos reservados</p>
+   </footer>
+</body>
+</html>

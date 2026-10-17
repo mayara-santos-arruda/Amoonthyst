@@ -1,0 +1,108 @@
+  body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;  
+    background-color: #a8a58b;    
+  }
+  .logo{
+    width: 200px;
+    height: auto;
+  }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+header {
+    background-color: #626b5c;
+    color: white;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+header nav a {
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+  }
+header nav a:hover {
+    color: #8ea88b;
+  }
+header nav a:hover .fas.fa-user-circle {
+    color: #8ea88b;  
+}
+.botao-carrinho {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center;
+    gap: 2px; 
+}
+.botao-carrinho .fas {
+    font-size: 25px; 
+}
+
+.botao-carrinho span {
+    font-size: 12px; 
+    font-weight: normal; 
+}
+.botao-perfil {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+    gap: 2px; 
+}
+.fas.fa-user-circle {
+    font-size: 25px;
+}
+.botao-perfil span {
+    font-size: 12px; 
+    font-weight: normal; 
+}
+.search-container {
+    display: flex;
+    align-items: center;  
+    flex-grow: 1; 
+    text-align: center; 
+    justify-content: center; 
+  }
+input[type="text"] {
+    flex: 1;
+    max-width: 700px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+  }
+button {
+    padding: 10px 14px;
+    border: none;
+    background: #96a88b;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+button:hover {
+    background:#90a871;
+  }
+footer {
+    background-color: #626b5c;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+  }
+
+
+
+

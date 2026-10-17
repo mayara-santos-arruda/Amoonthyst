@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="272 Sem Título_20251203225143.png">
+   <style>
+body{
+        background-image: url('Plano de fundo tela de login.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+        font-family: arial;
+        margin-top: 100px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100vh;
+        opacity: 75%;
+    }
+h1{
+        color: rgb(47, 1, 90);
+        margin-bottom: 30px;
+    }
+button{
+            background-color: rgb(127, 54, 187);
+            color: rgb(201, 142, 216); 
+            border: none; 
+            padding: 15px 0; 
+            font-size: 16px; 
+            border-radius: 13px; 
+            cursor: pointer; 
+            width: 60%;
+            height: 40px;
+            align-items: center;
+    }
+button:hover{
+        background-color: rgb(95, 0, 139); 
+        color:#8400ff; 
+        
+    }
+.container{
+        background-color: rgb(172, 132, 196);
+        box-shadow: 0 0 20px 10px rgba(73, 5, 94, 0.5);
+        height: 350px;
+        width: 360px;
+        text-align: center;
+        align-items: center;
+        border-radius: 10px; 
+        padding: 40px;
+    }
+label {
+            display: block; 
+            margin-top: 10px;
+            font-weight: bold; 
+            text-align: left;
+        }
+input {
+            width: 100%; 
+            padding: 8px; 
+            margin-top: 5px; 
+            border: 1px solid #ccc;
+            border-radius: 5px; 
+        }
+form{
+            color: rgba(73, 5, 94);;
+        }
+        .register-link{
+            color: rgba(73, 5, 94);
+        }
+        .register-link:hover{
+            color: rgb(175, 17, 223)
+        }
+   </style>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h1>Login</h1>
+
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Exemplo: Maria Silva">
+<br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Exemplo: maria.silva@gmail.com">
+<br>
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento" name="nascimento">
+<br>
+<br>
+            <button type="submit">Enviar</button>
+            <hr> <div class="new-customer-prompt">
+        <p>Cliente novo? <a href="cadastro.html" class="register-link">Comece aqui.</a></p>
+    </div>
+        </form>
+    </div>
+</body>
+</html>
